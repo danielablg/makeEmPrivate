@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3996FA5A1D5B861700643E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996FA591D5B861700643E50 /* AppDelegate.swift */; };
+		3996FA5C1D5B861700643E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3996FA5B1D5B861700643E50 /* Assets.xcassets */; };
+		3996FA5F1D5B861700643E50 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3996FA5D1D5B861700643E50 /* MainMenu.xib */; };
+		3996FA6D1D5B862900643E50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996FA6C1D5B862900643E50 /* Cocoa.framework */; };
+		3996FA721D5B862900643E50 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996FA711D5B862900643E50 /* SourceEditorExtension.swift */; };
+		3996FA741D5B862900643E50 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996FA731D5B862900643E50 /* SourceEditorCommand.swift */; };
+		3996FA781D5B862900643E50 /* MakeEmPrivate.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3996FA6A1D5B862900643E50 /* MakeEmPrivate.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3996FA761D5B862900643E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3996FA4E1D5B861700643E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3996FA691D5B862900643E50;
+			remoteInfo = MakeEmPrivate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3996FA7C1D5B862900643E50 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3996FA781D5B862900643E50 /* MakeEmPrivate.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3996FA561D5B861700643E50 /* ExtensionHostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionHostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3996FA591D5B861700643E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3996FA5B1D5B861700643E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3996FA5E1D5B861700643E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3996FA601D5B861700643E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3996FA6A1D5B862900643E50 /* MakeEmPrivate.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MakeEmPrivate.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3996FA6C1D5B862900643E50 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3996FA701D5B862900643E50 /* MakeEmPrivate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MakeEmPrivate.entitlements; sourceTree = "<group>"; };
+		3996FA711D5B862900643E50 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		3996FA731D5B862900643E50 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		3996FA751D5B862900643E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3996FA531D5B861700643E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3996FA671D5B862900643E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996FA6D1D5B862900643E50 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3996FA4D1D5B861700643E50 = {
+			isa = PBXGroup;
+			children = (
+				3996FA581D5B861700643E50 /* ExtensionHostApp */,
+				3996FA6E1D5B862900643E50 /* MakeEmPrivate */,
+				3996FA6B1D5B862900643E50 /* Frameworks */,
+				3996FA571D5B861700643E50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3996FA571D5B861700643E50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3996FA561D5B861700643E50 /* ExtensionHostApp.app */,
+				3996FA6A1D5B862900643E50 /* MakeEmPrivate.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3996FA581D5B861700643E50 /* ExtensionHostApp */ = {
+			isa = PBXGroup;
+			children = (
+				3996FA591D5B861700643E50 /* AppDelegate.swift */,
+				3996FA5B1D5B861700643E50 /* Assets.xcassets */,
+				3996FA5D1D5B861700643E50 /* MainMenu.xib */,
+				3996FA601D5B861700643E50 /* Info.plist */,
+			);
+			path = ExtensionHostApp;
+			sourceTree = "<group>";
+		};
+		3996FA6B1D5B862900643E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3996FA6C1D5B862900643E50 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3996FA6E1D5B862900643E50 /* MakeEmPrivate */ = {
+			isa = PBXGroup;
+			children = (
+				3996FA711D5B862900643E50 /* SourceEditorExtension.swift */,
+				3996FA731D5B862900643E50 /* SourceEditorCommand.swift */,
+				3996FA751D5B862900643E50 /* Info.plist */,
+				3996FA6F1D5B862900643E50 /* Supporting Files */,
+			);
+			path = MakeEmPrivate;
+			sourceTree = "<group>";
+		};
+		3996FA6F1D5B862900643E50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3996FA701D5B862900643E50 /* MakeEmPrivate.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3996FA551D5B861700643E50 /* ExtensionHostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3996FA631D5B861700643E50 /* Build configuration list for PBXNativeTarget "ExtensionHostApp" */;
+			buildPhases = (
+				3996FA521D5B861700643E50 /* Sources */,
+				3996FA531D5B861700643E50 /* Frameworks */,
+				3996FA541D5B861700643E50 /* Resources */,
+				3996FA7C1D5B862900643E50 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3996FA771D5B862900643E50 /* PBXTargetDependency */,
+			);
+			name = ExtensionHostApp;
+			productName = ExtensionHostApp;
+			productReference = 3996FA561D5B861700643E50 /* ExtensionHostApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3996FA691D5B862900643E50 /* MakeEmPrivate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3996FA791D5B862900643E50 /* Build configuration list for PBXNativeTarget "MakeEmPrivate" */;
+			buildPhases = (
+				3996FA661D5B862900643E50 /* Sources */,
+				3996FA671D5B862900643E50 /* Frameworks */,
+				3996FA681D5B862900643E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeEmPrivate;
+			productName = MakeEmPrivate;
+			productReference = 3996FA6A1D5B862900643E50 /* MakeEmPrivate.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3996FA4E1D5B861700643E50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = testProject;
+				TargetAttributes = {
+					3996FA551D5B861700643E50 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W93DM7UU9V;
+						ProvisioningStyle = Automatic;
+					};
+					3996FA691D5B862900643E50 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W93DM7UU9V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3996FA511D5B861700643E50 /* Build configuration list for PBXProject "ExtensionHostApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3996FA4D1D5B861700643E50;
+			productRefGroup = 3996FA571D5B861700643E50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3996FA551D5B861700643E50 /* ExtensionHostApp */,
+				3996FA691D5B862900643E50 /* MakeEmPrivate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3996FA541D5B861700643E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996FA5C1D5B861700643E50 /* Assets.xcassets in Resources */,
+				3996FA5F1D5B861700643E50 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3996FA681D5B862900643E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3996FA521D5B861700643E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996FA5A1D5B861700643E50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3996FA661D5B862900643E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996FA721D5B862900643E50 /* SourceEditorExtension.swift in Sources */,
+				3996FA741D5B862900643E50 /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3996FA771D5B862900643E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3996FA691D5B862900643E50 /* MakeEmPrivate */;
+			targetProxy = 3996FA761D5B862900643E50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3996FA5D1D5B861700643E50 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3996FA5E1D5B861700643E50 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3996FA611D5B861700643E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: danielablg@gmail.com (3D4N7X295V)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3996FA621D5B861700643E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer: danielablg@gmail.com (3D4N7X295V)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3996FA641D5B861700643E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W93DM7UU9V;
+				INFOPLIST_FILE = ExtensionHostApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ExtensionHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3996FA651D5B861700643E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W93DM7UU9V;
+				INFOPLIST_FILE = ExtensionHostApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ExtensionHostApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3996FA7A1D5B862900643E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MakeEmPrivate/MakeEmPrivate.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W93DM7UU9V;
+				INFOPLIST_FILE = MakeEmPrivate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ExtensionHostApp.MakeEmPrivate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3996FA7B1D5B862900643E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MakeEmPrivate/MakeEmPrivate.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W93DM7UU9V;
+				INFOPLIST_FILE = MakeEmPrivate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ExtensionHostApp.MakeEmPrivate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3996FA511D5B861700643E50 /* Build configuration list for PBXProject "ExtensionHostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3996FA611D5B861700643E50 /* Debug */,
+				3996FA621D5B861700643E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3996FA631D5B861700643E50 /* Build configuration list for PBXNativeTarget "ExtensionHostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3996FA641D5B861700643E50 /* Debug */,
+				3996FA651D5B861700643E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3996FA791D5B862900643E50 /* Build configuration list for PBXNativeTarget "MakeEmPrivate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3996FA7A1D5B862900643E50 /* Debug */,
+				3996FA7B1D5B862900643E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3996FA4E1D5B861700643E50 /* Project object */;
+}
